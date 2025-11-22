@@ -366,12 +366,12 @@ let en_1970_gr = [
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
-			group : 'Badfinger',
+			group : 'Black Sabbath',
 			song : "Black Sabbath (1970)"
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
-			group : 'Badfinger',
+			group : 'Black Sabbath',
 			song : "Paranoid (1970)"
 		},
 		{
@@ -458,6 +458,121 @@ let en_1970_gr = [
 			pack : EN_1970_GR_PACK_1,
 			group : 'Kiss',
 			song : "Strutter (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Led Zeppelin',
+			song : "Four Sticks (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Led Zeppelin',
+			song : "Going to California (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Led Zeppelin',
+			song : "Tea for One (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Lynyrd Skynyrd',
+			song : "I Know a Little (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Lynyrd Skynyrd',
+			song : "Simple Man (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Lynyrd Skynyrd',
+			song : "Sweet Home Alabama (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Pilot',
+			song : "Girl Next Door (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Pink Floyd',
+			song : "Hey You (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Pink Floyd',
+			song : "Money (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Pink Floyd',
+			song : "Time (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Queen',
+			song : "Bicycle Race (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Queen',
+			song : "Brighton Rock  (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Queen',
+			song : "Keep Yourself Alive (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Ramones',
+			song : "Rock 'N' Roll High School (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Rolling Stones',
+			song : "Angie (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Rolling Stones',
+			song : "Brown Sugar (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Sex Pistols',
+			song : "Anarchy In the UK (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Sex Pistols',
+			song : "God Save the Queen (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Sex Pistols',
+			song : "Pretty Vacant (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Slade',
+			song : "Far Far Away (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'T. Rex',
+			song : "Get It On (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Who',
+			song : "Baba O'Riley (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Who',
+			song : "Behind Blue Eyes (1971)"
 		}
 ];
 
