@@ -343,7 +343,7 @@ function load(){
 
 // EN songs
 const en_1970_gr_icon = [
-	'pop'
+	'rock'
 ];
 
 const EN_1970_GR_PACK_1 = 1;
@@ -351,8 +351,113 @@ const EN_1970_GR_PACK_1 = 1;
 let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
-			group : 'Олег Даль',
-			song : 'Мальчик Купидон (1975)'
+			group : 'Alice Cooper',
+			song : "I'm Eighteen (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Alice Cooper',
+			song : "School's Out (1972)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Badfinger',
+			song : "Day After Day (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Badfinger',
+			song : "Black Sabbath (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Badfinger',
+			song : "Paranoid (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Blue Öyster Cult',
+			song : "Don't Fear the Reaper (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Buzzcocks',
+			song : "Ever Fallen In Love (With Someone You Shouldn't've) (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Cars',
+			song : "Just What I Needed (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Christie',
+			song : "Yellow River (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Clash',
+			song : "I Fought the Law (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Clash',
+			song : "London Calling (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Creedence Clearwater Revival',
+			song : "Hey Tonight (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Deep Purple',
+			song : "Drifter (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Deep Purple',
+			song : "Highway Star (1972)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Deep Purple',
+			song : "Smoke On the Water (1972)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Doors',
+			song : "Peace Frog (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Doors',
+			song : "Riders On the Storm (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Golden Earring',
+			song : "Radar Love (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Kansas',
+			song : "Carry On Wayward Son (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Kiss',
+			song : "I Was Made For Lovin' You (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Kiss',
+			song : "Rock And Roll All Nite (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Kiss',
+			song : "Strutter (1974)"
 		}
 ];
 
