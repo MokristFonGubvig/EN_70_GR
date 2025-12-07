@@ -367,7 +367,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Black Sabbath',
-			song : "Black Sabbath (1970)"
+			song : "Black Sabbath (1970)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -573,6 +574,11 @@ let en_1970_gr = [
 			pack : EN_1970_GR_PACK_1,
 			group : 'Who',
 			song : "Behind Blue Eyes (1971)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Black Sabbath',
+			song : "Black Sabbath (1970)"
 		}
 ];
 
