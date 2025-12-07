@@ -378,7 +378,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Blue Öyster Cult',
-			song : "Don't Fear the Reaper (1976)"
+			song : "Don't Fear the Reaper (1976)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -438,7 +439,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Golden Earring',
-			song : "Radar Love (1973)"
+			song : "Radar Love (1973)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -453,7 +455,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Kiss',
-			song : "Rock And Roll All Nite (1975)"
+			song : "Rock And Roll All Nite (1975)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -503,7 +506,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Pink Floyd',
-			song : "Money (1973)"
+			song : "Money (1973)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -528,7 +532,8 @@ let en_1970_gr = [
 		{
 			pack : EN_1970_GR_PACK_1,
 			group : 'Ramones',
-			song : "Rock 'N' Roll High School (1979)"
+			song : "Rock 'N' Roll High School (1979)",
+			ignore : true
 		},
 		{
 			pack : EN_1970_GR_PACK_1,
@@ -579,6 +584,31 @@ let en_1970_gr = [
 			pack : EN_1970_GR_PACK_1,
 			group : 'Black Sabbath',
 			song : "Black Sabbath (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Golden Earring',
+			song : "Radar Love (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Kiss',
+			song : "Rock And Roll All Nite (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Pink Floyd',
+			song : "Money (1973)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Blue Öyster Cult',
+			song : "Don't Fear the Reaper (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_1,
+			group : 'Ramones',
+			song : "Rock 'N' Roll High School (1979)"
 		}
 ];
 
