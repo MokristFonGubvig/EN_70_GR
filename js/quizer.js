@@ -343,10 +343,12 @@ function load(){
 
 // EN songs
 const en_1970_gr_icon = [
-	'rock'
+	'rock',
+	'pop'
 ];
 
 const EN_1970_GR_PACK_1 = 1;
+const EN_1970_GR_PACK_2 = 2;
 
 let en_1970_gr = [
 		{
@@ -609,10 +611,126 @@ let en_1970_gr = [
 			pack : EN_1970_GR_PACK_1,
 			group : 'Ramones',
 			song : "Rock 'N' Roll High School (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : "B-52's",
+			song : "Rock Lobster (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Baccara',
+			song : "Baby Tell Me (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Chic',
+			song : "Good Times (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Earth & Fire',
+			song : "Memories (1972)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Earth, Wind & Fire',
+			song : "Boogie Wonderland (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Earth, Wind & Fire',
+			song : "September (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Earth, Wind & Fire',
+			song : "Shining Star (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Fleetwood Mac',
+			song : "Don't Stop (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Fleetwood Mac',
+			song : "Go Your Own Way (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Fleetwood Mac',
+			song : "The Chain (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Heart',
+			song : "Crazy On You (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Jackson 5',
+			song : "Santa Claus Is Coming To Town (1970)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'LaBelle',
+			song : "Lady Marmalade (1974)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Neoton Família',
+			song : "Santa Maria (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Runaways',
+			song : "Cherry Bomb (1976)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Sister Sledge',
+			song : "We Are Family (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Talking Heads',
+			song : "Burning Down the House (1977)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Toto',
+			song : "Hold the Line (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Village People',
+			song : "Hot Cop (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Village People',
+			song : "In the Navy (1979)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Village People',
+			song : "Macho Man (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Wham',
+			song : "Say What (1978)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'KC and the Sunshine Band',
+			song : "That's the Way (I Like It) (1975)"
 		}
 ];
 
 let en_1970_gr_1 =	en_1970_gr.filter(item => item.pack == 1);
+let en_1970_gr_2 =	en_1970_gr.filter(item => item.pack == 2);
 
 let music = [
 	{
@@ -621,6 +739,10 @@ let music = [
 		year: '1970',
 		type: 'gr',
 		packs: [
+				{
+					arr: en_1970_gr_2,
+					name: 'EN 1970s Group: Pop'
+				},
 				{
 					arr: en_1970_gr_1,
 					name: 'EN 1970s Group: Rock'
@@ -637,6 +759,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -984,6 +1107,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
