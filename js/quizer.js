@@ -689,11 +689,6 @@ let en_1970_gr = [
 		},
 		{
 			pack : EN_1970_GR_PACK_2,
-			group : 'Sister Sledge',
-			song : "We Are Family (1979)"
-		},
-		{
-			pack : EN_1970_GR_PACK_2,
 			group : 'Talking Heads',
 			song : "Burning Down the House (1977)"
 		},
@@ -726,6 +721,11 @@ let en_1970_gr = [
 			pack : EN_1970_GR_PACK_2,
 			group : 'KC and the Sunshine Band',
 			song : "That's the Way (I Like It) (1975)"
+		},
+		{
+			pack : EN_1970_GR_PACK_2,
+			group : 'Sister Sledge',
+			song : "We Are Family (1979)"
 		}
 ];
 
