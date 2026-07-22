@@ -719,7 +719,7 @@ let en_1970_gr = [
 		},
 		{
 			pack : EN_1970_GR_PACK_2,
-			group : 'KC and the Sunshine Band',
+			group : 'KC & The Sunshine Band',
 			song : "That's the Way (I Like It) (1975)"
 		},
 		{
